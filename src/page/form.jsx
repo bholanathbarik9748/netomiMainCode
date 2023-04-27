@@ -129,8 +129,8 @@ const Home = () => {
     <>
       Can you please Provide your personal details ?
       <form onSubmit={onSubmit}>
-        <label htmlFor="fname">Name</label>
-        <input type="text" id="name" name="name" placeholder="Your name.." onChange={NameHandler} />
+        <label htmlFor="fname" >Name</label>
+        <input type="text" id="name" name="name" placeholder="Your name.." onChange={NameHandler} required/>
 
         <label htmlFor="email">Email address</label>
         <input type="text" id="email" name="email" placeholder="Your last email.." onChange={EmailHandler} />

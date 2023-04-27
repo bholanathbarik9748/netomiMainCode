@@ -4,7 +4,6 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Form from './page/form'
 
 function App() {
-
   return (
     <>
       <Router>
